@@ -1,15 +1,13 @@
 import echarts from "echarts/lib/echarts";
 export const monthQuality = {
-  backgroundColor: "#080b30",
   title: {
     text: "后处理总收率",
     textStyle: {
       align: "center",
       color: "#FFFFFF",
-      fontSize: 20,
+      fontSize: 14,
     },
     top: "5%",
-    left: "center",
   },
   tooltip: {
     trigger: "axis",
@@ -106,7 +104,7 @@ export const monthQuality = {
       showAllSymbol: true,
       // symbol: 'image://./static/images/guang-circle.png',
       symbol: "circle",
-      symbolSize: 25,
+      symbolSize: 10,
       lineStyle: {
         normal: {
           color: "#6c50f3",
@@ -167,7 +165,7 @@ export const monthQuality = {
       showAllSymbol: true,
       // symbol: 'image://./static/images/guang-circle.png',
       symbol: "circle",
-      symbolSize: 25,
+      symbolSize: 10,
       lineStyle: {
         normal: {
           color: "#00ca95",

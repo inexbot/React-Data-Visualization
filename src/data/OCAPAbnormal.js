@@ -1,23 +1,10 @@
 export const OCAPAbnormal = {
-  title: {
-    text: "OCAP异常",
-    textStyle: {
-      align: "center",
-      color: "#FFFFFF",
-      fontSize: 20,
-    },
-    top: "5%",
-    left: "center",
-  },
+  color: ["#003366", "#006699", "#4cabce", "#e5323e","#1c9090"],
   tooltip: {
     trigger: "item",
     formatter: "{a} <br/>{b}: {c} ({d}%)",
   },
-  legend: {
-    orient: "vertical",
-    left: 10,
-    data: ["直接访问", "邮件营销", "联盟广告", "视频广告", "搜索引擎"],
-  },
+  
   series: [
     {
       name: "访问来源",
@@ -31,7 +18,7 @@ export const OCAPAbnormal = {
       emphasis: {
         label: {
           show: true,
-          fontSize: "30",
+          fontSize: "20",
           fontWeight: "bold",
         },
       },
@@ -39,12 +26,13 @@ export const OCAPAbnormal = {
         show: false,
       },
       data: [
-        { value: 335, name: "直接访问" },
+        { value: 135, name: "直接访问" },
         { value: 310, name: "邮件营销" },
-        { value: 234, name: "联盟广告" },
+        { value: 224, name: "联盟广告" },
         { value: 135, name: "视频广告" },
-        { value: 1548, name: "搜索引擎" },
+        { value: 148, name: "搜索引擎" },
       ],
     },
   ],
+  
 };

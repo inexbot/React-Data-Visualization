@@ -1,23 +1,23 @@
 export const AbnormalProblem = {
-  title: {
-    text: "未处理异常",
-    textStyle: {
-      align: "center",
-      color: "#FFFFFF",
-      fontSize: 20,
-    },
-    top: "5%",
-    left: "center",
-  },
+  // title: {
+  //   text: "未处理异常",
+  //   textStyle: {
+  //     align: "center",
+  //     color: "#FFFFFF",
+  //     fontSize: 14,
+  //   },
+  //   top: "5%",
+  //   left: "center",
+  // },
   tooltip: {
     trigger: "item",
     formatter: "{a} <br/>{b}: {c} ({d}%)",
   },
-  legend: {
-    orient: "vertical",
-    left: 10,
-    data: ["直接访问", "邮件营销", "联盟广告", "视频广告", "搜索引擎"],
-  },
+  // legend: {
+  //   orient: "vertical",
+  //   left: 10,
+  //   data: ["直接访问", "邮件营销", "联盟广告", "视频广告", "搜索引擎"],
+  // },
   series: [
     {
       name: "访问来源",
@@ -31,7 +31,7 @@ export const AbnormalProblem = {
       emphasis: {
         label: {
           show: true,
-          fontSize: "30",
+          fontSize: "20",
           fontWeight: "bold",
         },
       },

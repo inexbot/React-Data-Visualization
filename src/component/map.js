@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import echarts from "echarts";
 import "echarts/lib/chart/map";
+import "echarts/lib/chart/lines";
+import "echarts/lib/chart/effectScatter";
 
 function Map(props) {
   // const lineData = props.lineData;

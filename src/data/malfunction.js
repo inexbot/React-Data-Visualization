@@ -4,10 +4,9 @@ export const malfunction = {
     textStyle: {
       align: "center",
       color: "#FFFFFF",
-      fontSize: 20,
+      fontSize: 14,
     },
     top: "5%",
-    left: "center",
   },
   dataset: {
     source: [

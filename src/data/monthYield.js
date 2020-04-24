@@ -1,15 +1,15 @@
 export const monthYield = {
   color: ["#003366", "#006699", "#4cabce", "#e5323e"],
-  title: {
-    text: "月度产量",
-    textStyle: {
-      align: "center",
-      color: "#FFFFFF",
-      fontSize: 20,
-    },
-    top: "5%",
-    left: "center",
-  },
+  // title: {
+  //   text: "月度产量",
+  //   textStyle: {
+  //     align: "center",
+  //     color: "#FFFFFF",
+  //     fontSize: 14,
+  //   },
+  //   top: "5%",
+  //   left: "center",
+  // },
   tooltip: {
     trigger: "axis",
     axisPointer: {
@@ -23,12 +23,40 @@ export const monthYield = {
     {
       type: "category",
       axisTick: { show: false },
-      data: ["2012", "2013", "2014", "2015", "2016"],
+      data: [
+        {
+          value:"2012",
+          textStyle:{
+            color:"white"
+          },
+        },        {
+          value:"2013",
+          textStyle:{
+            color:"white"
+          },
+        },        {
+          value:"2014",
+          textStyle:{
+            color:"white"
+          },
+        },        {
+          value:"2015",
+          textStyle:{
+            color:"white"
+          },
+        },
+        {
+          value:"2016",
+          textStyle:{
+            color:"white"
+          },
+        },
+      ],
     },
   ],
   yAxis: [
     {
-      type: "value",
+      type:"value",
     },
   ],
   series: [
@@ -58,4 +86,4 @@ export const monthYield = {
       data: [98, 77, 101, 99, 40],
     },
   ],
-}
+};
