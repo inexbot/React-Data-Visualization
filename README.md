@@ -26,7 +26,7 @@ NodeJs，React，Echarts， Electron
 打开项目方法：
 
 1. 安装 NodeJs、VSCode；
-2. git 下载`git clone https://github.com/MintOTea/ReactDataVisualization.git`使用 ssh 方式需在码云加入自己的公钥。
+2. git 下载`git clone https://github.com/MintOTea/ReactDataVisualization.git`使用 ssh 方式需在Github加入自己的公钥。
 3. 进入项目主目录；
 4. 右键，选择 Visual Studio Code 打开。
 
