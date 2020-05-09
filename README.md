@@ -2,6 +2,14 @@
 
 纳博特数据可视化项目
 
+简单封装[Echats](https://echarts.apache.org/zh/index.html),可以用React更快做出大屏展示应用。已集成好Electron，可生成多平台可执行程序。
+
+纳博特科技官网：[http://www.inexbot.com](http://www.inexbot.com)
+
+微信公众号：
+
+<img src="https://nbt1-1300006962.cos.ap-chengdu.myqcloud.com/wechat.jpg" style="width:150px">
+
 ## 软件架构
 
 ### 当前已应用
